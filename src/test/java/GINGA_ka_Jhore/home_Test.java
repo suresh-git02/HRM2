@@ -17,5 +17,9 @@ public class home_Test {
 	{
 		System.err.println("-------fulaaaaaa----");
 	}
+	public void m8()
+	{
+		System.err.println("-------fulaaaaaa devi----");
+	}
 
 }
