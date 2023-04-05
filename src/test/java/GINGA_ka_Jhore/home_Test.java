@@ -11,4 +11,11 @@ public class home_Test {
 	{
 		System.err.println("----------continueeee----");
 	}
+	
+	@Test(groups="smoke")
+	public void m7()
+	{
+		System.err.println("-------fulaaaaaa----");
+	}
+
 }
