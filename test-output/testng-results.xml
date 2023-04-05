@@ -1,20 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="61" started-at="2023-04-03T10:15:50 IST" finished-at="2023-04-03T10:15:50 IST">
+  <suite started-at="2023-04-05T09:30:57 IST" name="Default suite" finished-at="2023-04-05T09:30:57 IST" duration-ms="82">
     <groups>
+      <group name="regression">
+        <method signature="Login_Test.m1()[pri:0, instance:GINGA_ka_Jhore.Login_Test@53976f5c]" name="m1" class="GINGA_ka_Jhore.Login_Test"/>
+        <method signature="Login_Test.m2()[pri:0, instance:GINGA_ka_Jhore.Login_Test@53976f5c]" name="m2" class="GINGA_ka_Jhore.Login_Test"/>
+        <method signature="Login_Test.m5()[pri:0, instance:GINGA_ka_Jhore.Login_Test@53976f5c]" name="m5" class="GINGA_ka_Jhore.Login_Test"/>
+      </group> <!-- regression -->
       <group name="smoke">
-        <method signature="ParameterTests.test()[pri:0, instance:GINGA_ka_Jhore.ParameterTests@1a8a8f7c]" name="test" class="GINGA_ka_Jhore.ParameterTests"/>
+        <method signature="Login_Test.m3()[pri:0, instance:GINGA_ka_Jhore.Login_Test@53976f5c]" name="m3" class="GINGA_ka_Jhore.Login_Test"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Default test" duration-ms="61" started-at="2023-04-03T10:15:50 IST" finished-at="2023-04-03T10:15:50 IST">
-      <class name="GINGA_ka_Jhore.ParameterTests">
-        <test-method status="PASS" signature="test()[pri:0, instance:GINGA_ka_Jhore.ParameterTests@1a8a8f7c]" name="test" duration-ms="9" started-at="2023-04-03T10:15:50 IST" finished-at="2023-04-03T10:15:50 IST">
+    <test started-at="2023-04-05T09:30:57 IST" name="Default test" finished-at="2023-04-05T09:30:57 IST" duration-ms="82">
+      <class name="GINGA_ka_Jhore.Login_Test">
+        <test-method signature="m1()[pri:0, instance:GINGA_ka_Jhore.Login_Test@53976f5c]" started-at="2023-04-05T09:30:57 IST" name="m1" finished-at="2023-04-05T09:30:57 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- GINGA_ka_Jhore.ParameterTests -->
+        </test-method> <!-- m1 -->
+        <test-method signature="m2()[pri:0, instance:GINGA_ka_Jhore.Login_Test@53976f5c]" started-at="2023-04-05T09:30:57 IST" name="m2" finished-at="2023-04-05T09:30:57 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+        <test-method signature="m3()[pri:0, instance:GINGA_ka_Jhore.Login_Test@53976f5c]" started-at="2023-04-05T09:30:57 IST" name="m3" finished-at="2023-04-05T09:30:57 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m3 -->
+        <test-method signature="m5()[pri:0, instance:GINGA_ka_Jhore.Login_Test@53976f5c]" started-at="2023-04-05T09:30:57 IST" name="m5" finished-at="2023-04-05T09:30:57 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m5 -->
+      </class> <!-- GINGA_ka_Jhore.Login_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -21,3 +21,30 @@ public class ParameterTests {
 
 }
 }
+
+//<properties>
+//<maven.compiler.source>11.0.17</maven.compiler.source>
+//<maven.compiler.target>11.0.17</maven.compiler.target>
+//</properties>
+
+//<build>
+//<plugins>
+//	<plugin>
+//		<groupId>org.apache.maven.plugins</groupId>
+//		<artifactId>maven-compiler-plugin</artifactId>
+//		<version>3.11.0</version>
+//		<configuration>
+//			<verbose>true</verbose>
+//			<fork>true</fork>
+//			<executable>C:\Program Files\javNew\jdk-11.0.17\bin\javac
+//			</executable>
+//			<compilerVersion>1.3</compilerVersion>
+//		</configuration>
+//	</plugin>
+//</plugins>
+//</build>
+
+
+
+
+
